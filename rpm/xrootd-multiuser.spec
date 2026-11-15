@@ -11,9 +11,9 @@ URL: https://github.com/opensciencegrid/xrootd-multiuser
 # git archive v%{version} --prefix=xrootd-multiuser-%{version}/ | gzip -7 > ~/rpmbuild/SOURCES/xrootd-multiuser-%{version}.tar.gz
 Source0: %{name}-%{version}.tar.gz
 
-%define xrootd_current_major 5
+%define xrootd_current_major 6
 %define xrootd_current_minor 2
-%define xrootd_next_major 6
+%define xrootd_next_major 7
 
 %if 0%{?rhel} > 8
 %global __cmake_in_source_build 1
