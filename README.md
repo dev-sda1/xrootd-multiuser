@@ -1,3 +1,5 @@
+(The purpose of this is to build RPMs for experimenting with XRD 6 at our site, not an actual fork)
+
 
 Multi-user OSS and CKS (checksum) plugin for Xrootd
 ================================
